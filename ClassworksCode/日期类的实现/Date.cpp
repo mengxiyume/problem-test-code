@@ -1,6 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 
 #include "./Date.h"
+#include <iostream>
 
 //全缺省的构造函数
 Date::Date(int year, int month, int day) :
@@ -71,13 +72,13 @@ Date& Date::operator-=(int day) {
 	this->_day -= day;
 	while (this->_day < 1) {
 		//月减少
-		this->_day += GetMonthDay(this->_year, this->_month);
 		this->_month--;
 		//年减少
 		if (this->_month <= 0) {
-			this->_year--;
 			this->_month = 12;
+			this->_year--;
 		}
+		this->_day += GetMonthDay(this->_year, this->_month);
 	}
 	return *this;
 }
@@ -114,47 +115,63 @@ Date Date::operator--(int) {
 
 #pragma region 关系运算符重载
 
-bool Date::operator>(const Date& d) {
-	int cmp = compare(*this, d);
+bool Date::operator>(const Date& d)const {
+	int cmp = compare(d);
 	return cmp > 0;
 }
 
-bool Date::operator>=(const Date& d) {
-	int cmp = compare(*this, d);
+bool Date::operator>=(const Date& d)const {
+	int cmp = compare(d);
 	return cmp >= 0;
 }
 
-bool Date::operator<(const Date& d) {
-	int cmp = compare(*this, d);
+bool Date::operator<(const Date& d)const {
+	int cmp = compare(d);
 	return cmp < 0;
 }
 
-bool Date::operator<=(const Date& d) {
-	int cmp = compare(*this, d);
+bool Date::operator<=(const Date& d)const {
+	int cmp = compare(d);
 	return cmp <= 0;
 }
 
-bool Date::operator==(const Date& d) {
-	int cmp = compare(*this, d);
+bool Date::operator==(const Date& d)const {
+	int cmp = compare(d);
 	return cmp == 0;
 }
 
-bool Date::operator!=(const Date& d) {
-	int cmp = compare(*this, d);
+bool Date::operator!=(const Date& d)const {
+	int cmp = compare(d);
 	return cmp != 0;
 }
 
 //返回a与b的大小关系
-int Date::compare(const Date& a, const Date& b) {
-	if (a._year - b._year != 0)
-		return a._year - b._year;
-	else if (a._month - b._month != 0)
-		return a._month - b._month;
+int Date::compare(const Date& right)const {
+	if (this->_year - right._year != 0)
+		return this->_year - right._year;
+	else if (this->_month - right._month != 0)
+		return this->_month - right._month;
 	else
-		return a._day - b._day;
+		return this->_day - right._day;
 }
 
 #pragma endregion
+
+int Date::operator-(const Date& d) const {
+	int cmp = 0;
+
+	Date* max = new Date(*this);
+	Date* min = new Date(d);
+	//找极值
+	if ((*max) < (*min)) {
+		std::swap(max, min);
+	}
+	while ((*max) > (*min)) {
+		(*max)--;
+		cmp++;
+	}
+	return cmp;
+}
 
 //输出日期
 std::ostream& operator<<(std::ostream& dest, const Date& src) {

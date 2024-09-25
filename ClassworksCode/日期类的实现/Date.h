@@ -37,23 +37,23 @@ public:
 	// 前置--
 	Date& operator--();
 	// >运算符重载
-	bool operator>(const Date& d);
+	bool operator>(const Date& d)const;
 	// ==运算符重载
-	bool operator==(const Date& d);
+	bool operator==(const Date& d)const;
 	// >=运算符重载
-	bool operator >= (const Date& d);
+	bool operator >= (const Date& d)const;
 	// <运算符重载
-	bool operator < (const Date& d);
+	bool operator < (const Date& d)const;
 	// <=运算符重载
-	bool operator <= (const Date& d);
+	bool operator <= (const Date& d)const;
 	// !=运算符重载
-	bool operator != (const Date& d);
+	bool operator != (const Date& d)const;
 	// 日期-日期 返回天数
-	int operator-(const Date& d);
+	int operator-(const Date& d)const;
 private:
 	int _year;
 	int _month;
 	int _day;
 
-	int compare(const Date& a, const Date& b);
+	int compare(const Date& right)const;
 };
