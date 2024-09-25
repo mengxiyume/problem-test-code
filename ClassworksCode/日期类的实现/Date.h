@@ -1,5 +1,7 @@
 #pragma once
 
+#include <iostream>
+
 class Date {
 public:
 	// 获取某年某月的天数
@@ -44,6 +46,10 @@ public:
 	bool operator != (const Date& d);
 	// 日期-日期 返回天数
 	int operator-(const Date& d);
+	//输出日期
+	friend std::ostream& operator<<(std::ostream& dest, const Date&src);
+	//输入日期
+	friend std::istream& operator>>(std::istream& src, Date& dest);
 private:
 	int _year;
 	int _month;

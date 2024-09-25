@@ -81,3 +81,13 @@ Date& Date::operator-=(int day) {
 Date Date::operator-(int day) {
 	return (*this) -= day;
 }
+
+//输出日期
+std::ostream& operator<<(std::ostream& dest, const Date& src) {
+	return dest << src._year << "\\" << src._month << "\\" << src._day;
+}
+//输入日期
+std::istream& operator>>(std::istream& src, Date& dest) {
+	char temp = 0;
+	return src >> dest._year >> temp >> dest._month >> temp >> dest._day;
+}
