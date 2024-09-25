@@ -54,4 +54,6 @@ private:
 	int _year;
 	int _month;
 	int _day;
+
+	int compare(const Date& a, const Date& b);
 };

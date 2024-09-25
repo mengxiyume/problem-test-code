@@ -82,6 +82,8 @@ Date Date::operator-(int day) {
 	return (*this) -= day;
 }
 
+#pragma region 自增自减重载
+
 Date& Date::operator++() {
 	Date temp = (*this);
 	(*this) += 1;
@@ -101,6 +103,52 @@ Date& Date::operator--() {
 Date Date::operator--(int) {
 	return (*this) -= 1;
 }
+
+#pragma endregion
+
+#pragma region 关系运算符重载
+
+bool Date::operator>(const Date& d) {
+	int cmp = compare(*this, d);
+	return cmp > 0;
+}
+
+bool Date::operator>=(const Date& d) {
+	int cmp = compare(*this, d);
+	return cmp >= 0;
+}
+
+bool Date::operator<(const Date& d) {
+	int cmp = compare(*this, d);
+	return cmp < 0;
+}
+
+bool Date::operator<=(const Date& d) {
+	int cmp = compare(*this, d);
+	return cmp <= 0;
+}
+
+bool Date::operator==(const Date& d) {
+	int cmp = compare(*this, d);
+	return cmp == 0;
+}
+
+bool Date::operator!=(const Date& d) {
+	int cmp = compare(*this, d);
+	return cmp != 0;
+}
+
+//返回a与b的大小关系
+int Date::compare(const Date& a, const Date& b) {
+	if (a._year - b._year != 0)
+		return a._year - b._year;
+	else if (a._month - b._month != 0)
+		return a._month - b._month;
+	else
+		return a._day - b._day;
+}
+
+#pragma endregion
 
 //输出日期
 std::ostream& operator<<(std::ostream& dest, const Date& src) {
