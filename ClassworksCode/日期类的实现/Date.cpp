@@ -29,11 +29,15 @@ Date& Date::operator=(const Date& d) {
 //析构函数
 Date::~Date() { ; }
 
+inline bool isLeapYear(int year) {
+	return (year % 4 == 0 && year % 100 != 0) || year % 400 == 0;
+}
+
 int Date::GetMonthDay(int year, int month) {
 	int monthArr[] = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 30 };
 	//if leap-year	闰年将二月的天数替换为29
 	//能被4整除但不能被100整除，或者能被400整除
-	if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0)
+	if (isLeapYear(year))
 		monthArr[1]++;
 	return monthArr[month - 1];
 }
