@@ -10,7 +10,10 @@ int main() {
 	//d = d + 36;
 	//cout << d._year << ' ' << d._month << ' ' << d._day << endl;
 
-	d = d - 1;
+	d = d++;
+	cout << d << endl;
+
+	d = d--;
 	cout << d << endl;
 
 	return 0;

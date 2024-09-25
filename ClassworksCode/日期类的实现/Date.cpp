@@ -64,7 +64,7 @@ Date Date::operator+(int day) {
 Date& Date::operator-=(int day) {
 	//日减少, 到最后保留的日就是对应的日
 	this->_day -= day;
-	while (this->_day < GetMonthDay(this->_year, this->_month)) {
+	while (this->_day < 1) {
 		//月减少
 		this->_day += GetMonthDay(this->_year, this->_month);
 		this->_month--;
