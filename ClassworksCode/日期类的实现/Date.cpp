@@ -82,10 +82,17 @@ Date Date::operator-(int day) {
 	return (*this) -= day;
 }
 
+Date& Date::operator++() {
+	Date temp = (*this);
+	(*this) += 1;
+	return temp;
+}
+
 //输出日期
 std::ostream& operator<<(std::ostream& dest, const Date& src) {
 	return dest << src._year << "\\" << src._month << "\\" << src._day;
 }
+
 //输入日期
 std::istream& operator>>(std::istream& src, Date& dest) {
 	char temp = 0;
