@@ -56,8 +56,9 @@ Date& Date::operator+=(int day) {
 }
 
 //日期+天数
-Date Date::operator+(int day) {
-	return (*this) += day;
+Date Date::operator+(int day)const {
+	Date temp = *this;
+	return temp += day;
 }
 
 //日期-天数
@@ -78,8 +79,9 @@ Date& Date::operator-=(int day) {
 }
 
 //日期+天数
-Date Date::operator-(int day) {
-	return (*this) -= day;
+Date Date::operator-(int day)const {
+	Date temp = *this;
+	return temp -= day;
 }
 
 #pragma region 自增自减重载

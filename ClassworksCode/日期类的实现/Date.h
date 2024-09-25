@@ -23,9 +23,9 @@ public:
 	// 日期+=天数
 	Date& operator+=(int day);
 	// 日期+天数
-	Date operator+(int day);
+	Date operator+(int day)const;
 	// 日期-天数
-	Date operator-(int day);
+	Date operator-(int day)const;
 	// 日期-=天数
 	Date& operator-=(int day);
 	// 前置++

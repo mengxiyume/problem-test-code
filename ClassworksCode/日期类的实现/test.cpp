@@ -16,5 +16,8 @@ int main() {
 	d = d--;
 	cout << d << endl;
 
+	cout << (d > d + 3) << endl;
+	cout << (d == (d - 3)) << endl;
+
 	return 0;
 }
