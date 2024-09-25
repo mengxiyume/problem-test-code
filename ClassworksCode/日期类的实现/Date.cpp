@@ -92,6 +92,12 @@ Date Date::operator++(int) {
 	return (*this) += 1;
 }
 
+Date& Date::operator--() {
+	Date temp = (*this);
+	(*this) -= 1;
+	return temp;
+}
+
 //Êä³öÈÕÆÚ
 std::ostream& operator<<(std::ostream& dest, const Date& src) {
 	return dest << src._year << "\\" << src._month << "\\" << src._day;
