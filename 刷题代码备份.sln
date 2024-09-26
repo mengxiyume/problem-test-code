@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "415字符串相加", "力�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "344_反转字符串", "力扣\344_反转字符串\344_反转字符串.vcxproj", "{3B1C4BBC-FF97-453E-97E0-0FD79D67817B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "387_字符串的第一个唯一字符", "387_字符串的第一个唯一字符\387_字符串的第一个唯一字符.vcxproj", "{8F8F79EE-F867-4407-82C8-1BAE6E5DA74E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -127,6 +129,14 @@ Global
 		{3B1C4BBC-FF97-453E-97E0-0FD79D67817B}.Release|x64.Build.0 = Release|x64
 		{3B1C4BBC-FF97-453E-97E0-0FD79D67817B}.Release|x86.ActiveCfg = Release|Win32
 		{3B1C4BBC-FF97-453E-97E0-0FD79D67817B}.Release|x86.Build.0 = Release|Win32
+		{8F8F79EE-F867-4407-82C8-1BAE6E5DA74E}.Debug|x64.ActiveCfg = Debug|x64
+		{8F8F79EE-F867-4407-82C8-1BAE6E5DA74E}.Debug|x64.Build.0 = Debug|x64
+		{8F8F79EE-F867-4407-82C8-1BAE6E5DA74E}.Debug|x86.ActiveCfg = Debug|Win32
+		{8F8F79EE-F867-4407-82C8-1BAE6E5DA74E}.Debug|x86.Build.0 = Debug|Win32
+		{8F8F79EE-F867-4407-82C8-1BAE6E5DA74E}.Release|x64.ActiveCfg = Release|x64
+		{8F8F79EE-F867-4407-82C8-1BAE6E5DA74E}.Release|x64.Build.0 = Release|x64
+		{8F8F79EE-F867-4407-82C8-1BAE6E5DA74E}.Release|x86.ActiveCfg = Release|Win32
+		{8F8F79EE-F867-4407-82C8-1BAE6E5DA74E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -142,6 +152,7 @@ Global
 		{5A37AFE6-EF94-4EE7-BC2D-E98440F1726E} = {D32A39AE-5E3A-4F77-93D5-C46C0C85CB3D}
 		{3A0A018B-E542-4BD5-A3C3-020EFD428D62} = {D32A39AE-5E3A-4F77-93D5-C46C0C85CB3D}
 		{3B1C4BBC-FF97-453E-97E0-0FD79D67817B} = {D32A39AE-5E3A-4F77-93D5-C46C0C85CB3D}
+		{8F8F79EE-F867-4407-82C8-1BAE6E5DA74E} = {D32A39AE-5E3A-4F77-93D5-C46C0C85CB3D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {19567278-2A7D-48CE-9AF2-D3A9047C97F6}
