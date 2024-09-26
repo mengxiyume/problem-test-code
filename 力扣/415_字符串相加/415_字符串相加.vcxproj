@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{97171398-cd60-4daf-8a14-2b93f50c4ca8}</ProjectGuid>
-    <RootNamespace>LetCode415字符串相加</RootNamespace>
+    <ProjectGuid>{638a5d48-783b-4e73-a7d8-01d28f7cb8d6}</ProjectGuid>
+    <RootNamespace>My415字符串相加</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
