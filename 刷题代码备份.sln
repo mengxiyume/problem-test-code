@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KY111_日期差值", "牛�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JZ64_求1+2+…+n", "牛客\JZ64_求1+2+…+n\JZ64_求1+2+…+n.vcxproj", "{88D2DCBD-3465-4927-A4B2-341166D7117B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KY222_打印日期", "牛客\KY222_打印日期\KY222_打印日期.vcxproj", "{35E2DA3E-C2E2-442B-BD0F-CCE8E798631E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -77,6 +79,14 @@ Global
 		{88D2DCBD-3465-4927-A4B2-341166D7117B}.Release|x64.Build.0 = Release|x64
 		{88D2DCBD-3465-4927-A4B2-341166D7117B}.Release|x86.ActiveCfg = Release|Win32
 		{88D2DCBD-3465-4927-A4B2-341166D7117B}.Release|x86.Build.0 = Release|Win32
+		{35E2DA3E-C2E2-442B-BD0F-CCE8E798631E}.Debug|x64.ActiveCfg = Debug|x64
+		{35E2DA3E-C2E2-442B-BD0F-CCE8E798631E}.Debug|x64.Build.0 = Debug|x64
+		{35E2DA3E-C2E2-442B-BD0F-CCE8E798631E}.Debug|x86.ActiveCfg = Debug|Win32
+		{35E2DA3E-C2E2-442B-BD0F-CCE8E798631E}.Debug|x86.Build.0 = Debug|Win32
+		{35E2DA3E-C2E2-442B-BD0F-CCE8E798631E}.Release|x64.ActiveCfg = Release|x64
+		{35E2DA3E-C2E2-442B-BD0F-CCE8E798631E}.Release|x64.Build.0 = Release|x64
+		{35E2DA3E-C2E2-442B-BD0F-CCE8E798631E}.Release|x86.ActiveCfg = Release|Win32
+		{35E2DA3E-C2E2-442B-BD0F-CCE8E798631E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -87,6 +97,7 @@ Global
 		{5F67B7FD-E2B2-4E61-BBD1-185879D557CE} = {83714626-2480-4002-90BA-19CB64F85BED}
 		{E15C18B3-870F-4021-90A4-D761291938AA} = {83714626-2480-4002-90BA-19CB64F85BED}
 		{88D2DCBD-3465-4927-A4B2-341166D7117B} = {83714626-2480-4002-90BA-19CB64F85BED}
+		{35E2DA3E-C2E2-442B-BD0F-CCE8E798631E} = {83714626-2480-4002-90BA-19CB64F85BED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {19567278-2A7D-48CE-9AF2-D3A9047C97F6}
