@@ -35,7 +35,7 @@ inline bool isLeapYear(int year) {
 }
 
 int Date::GetMonthDay(int year, int month) {
-	int monthArr[] = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 30 };
+	int monthArr[] = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 	//if leap-year	闰年将二月的天数替换为29
 	//能被4整除但不能被100整除，或者能被400整除
 	if (isLeapYear(year))
