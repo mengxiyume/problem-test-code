@@ -22,5 +22,7 @@ int main() {
 
 	cout << d - (d + 180) << endl;
 
+	
+
 	return 0;
 }

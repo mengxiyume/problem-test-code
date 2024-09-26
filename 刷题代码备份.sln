@@ -3,13 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.34729.46
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LetCode415_字符串相加", "LetCode415_字符串相加\LetCode415_字符串相加.vcxproj", "{97171398-CD60-4DAF-8A14-2B93F50C4CA8}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Draft_1", "Draft_1\Draft_1.vcxproj", "{7F219314-B0BF-4F07-A23E-0517AB317EA0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClassworksCode", "ClassworksCode", "{BBB96C87-62BD-464C-ABE9-8B01911CE754}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "日期类的实现", "ClassworksCode\日期类的实现\日期类的实现.vcxproj", "{4E7BE70A-7EC3-43AF-9D07-DB4C16EAEA86}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "牛客JZ64_求1+2+3+…+n", "牛客\牛客JZ64_求1+2+3+…+n\牛客JZ64_求1+2+3+…+n.vcxproj", "{FCAA8CDA-2219-4759-A12A-695C3D3B6E64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "牛客", "牛客", "{83714626-2480-4002-90BA-19CB64F85BED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "力扣", "力扣", "{D32A39AE-5E3A-4F77-93D5-C46C0C85CB3D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LetCode415_字符串相加", "力扣\LetCode415_字符串相加\LetCode415_字符串相加.vcxproj", "{97171398-CD60-4DAF-8A14-2B93F50C4CA8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +25,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{97171398-CD60-4DAF-8A14-2B93F50C4CA8}.Debug|x64.ActiveCfg = Debug|x64
-		{97171398-CD60-4DAF-8A14-2B93F50C4CA8}.Debug|x64.Build.0 = Debug|x64
-		{97171398-CD60-4DAF-8A14-2B93F50C4CA8}.Debug|x86.ActiveCfg = Debug|Win32
-		{97171398-CD60-4DAF-8A14-2B93F50C4CA8}.Debug|x86.Build.0 = Debug|Win32
-		{97171398-CD60-4DAF-8A14-2B93F50C4CA8}.Release|x64.ActiveCfg = Release|x64
-		{97171398-CD60-4DAF-8A14-2B93F50C4CA8}.Release|x64.Build.0 = Release|x64
-		{97171398-CD60-4DAF-8A14-2B93F50C4CA8}.Release|x86.ActiveCfg = Release|Win32
-		{97171398-CD60-4DAF-8A14-2B93F50C4CA8}.Release|x86.Build.0 = Release|Win32
 		{7F219314-B0BF-4F07-A23E-0517AB317EA0}.Debug|x64.ActiveCfg = Debug|x64
 		{7F219314-B0BF-4F07-A23E-0517AB317EA0}.Debug|x64.Build.0 = Debug|x64
 		{7F219314-B0BF-4F07-A23E-0517AB317EA0}.Debug|x86.ActiveCfg = Debug|Win32
@@ -43,12 +41,30 @@ Global
 		{4E7BE70A-7EC3-43AF-9D07-DB4C16EAEA86}.Release|x64.Build.0 = Release|x64
 		{4E7BE70A-7EC3-43AF-9D07-DB4C16EAEA86}.Release|x86.ActiveCfg = Release|Win32
 		{4E7BE70A-7EC3-43AF-9D07-DB4C16EAEA86}.Release|x86.Build.0 = Release|Win32
+		{FCAA8CDA-2219-4759-A12A-695C3D3B6E64}.Debug|x64.ActiveCfg = Debug|x64
+		{FCAA8CDA-2219-4759-A12A-695C3D3B6E64}.Debug|x64.Build.0 = Debug|x64
+		{FCAA8CDA-2219-4759-A12A-695C3D3B6E64}.Debug|x86.ActiveCfg = Debug|Win32
+		{FCAA8CDA-2219-4759-A12A-695C3D3B6E64}.Debug|x86.Build.0 = Debug|Win32
+		{FCAA8CDA-2219-4759-A12A-695C3D3B6E64}.Release|x64.ActiveCfg = Release|x64
+		{FCAA8CDA-2219-4759-A12A-695C3D3B6E64}.Release|x64.Build.0 = Release|x64
+		{FCAA8CDA-2219-4759-A12A-695C3D3B6E64}.Release|x86.ActiveCfg = Release|Win32
+		{FCAA8CDA-2219-4759-A12A-695C3D3B6E64}.Release|x86.Build.0 = Release|Win32
+		{97171398-CD60-4DAF-8A14-2B93F50C4CA8}.Debug|x64.ActiveCfg = Debug|x64
+		{97171398-CD60-4DAF-8A14-2B93F50C4CA8}.Debug|x64.Build.0 = Debug|x64
+		{97171398-CD60-4DAF-8A14-2B93F50C4CA8}.Debug|x86.ActiveCfg = Debug|Win32
+		{97171398-CD60-4DAF-8A14-2B93F50C4CA8}.Debug|x86.Build.0 = Debug|Win32
+		{97171398-CD60-4DAF-8A14-2B93F50C4CA8}.Release|x64.ActiveCfg = Release|x64
+		{97171398-CD60-4DAF-8A14-2B93F50C4CA8}.Release|x64.Build.0 = Release|x64
+		{97171398-CD60-4DAF-8A14-2B93F50C4CA8}.Release|x86.ActiveCfg = Release|Win32
+		{97171398-CD60-4DAF-8A14-2B93F50C4CA8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4E7BE70A-7EC3-43AF-9D07-DB4C16EAEA86} = {BBB96C87-62BD-464C-ABE9-8B01911CE754}
+		{FCAA8CDA-2219-4759-A12A-695C3D3B6E64} = {83714626-2480-4002-90BA-19CB64F85BED}
+		{97171398-CD60-4DAF-8A14-2B93F50C4CA8} = {D32A39AE-5E3A-4F77-93D5-C46C0C85CB3D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {19567278-2A7D-48CE-9AF2-D3A9047C97F6}
