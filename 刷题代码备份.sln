@@ -47,6 +47,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "557_反转字符串中的�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "26_删除有序数组中的重复项", "力扣\26_删除有序数组中的重复项\26_删除有序数组中的重复项.vcxproj", "{1BFA34A3-2E91-48FA-947C-07940E1152B5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "260_只出现一次的数字3", "力扣\260_只出现一次的数字3\260_只出现一次的数字3.vcxproj", "{BF0258E4-9B66-4175-85AB-40943436CA11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -207,6 +209,14 @@ Global
 		{1BFA34A3-2E91-48FA-947C-07940E1152B5}.Release|x64.Build.0 = Release|x64
 		{1BFA34A3-2E91-48FA-947C-07940E1152B5}.Release|x86.ActiveCfg = Release|Win32
 		{1BFA34A3-2E91-48FA-947C-07940E1152B5}.Release|x86.Build.0 = Release|Win32
+		{BF0258E4-9B66-4175-85AB-40943436CA11}.Debug|x64.ActiveCfg = Debug|x64
+		{BF0258E4-9B66-4175-85AB-40943436CA11}.Debug|x64.Build.0 = Debug|x64
+		{BF0258E4-9B66-4175-85AB-40943436CA11}.Debug|x86.ActiveCfg = Debug|Win32
+		{BF0258E4-9B66-4175-85AB-40943436CA11}.Debug|x86.Build.0 = Debug|Win32
+		{BF0258E4-9B66-4175-85AB-40943436CA11}.Release|x64.ActiveCfg = Release|x64
+		{BF0258E4-9B66-4175-85AB-40943436CA11}.Release|x64.Build.0 = Release|x64
+		{BF0258E4-9B66-4175-85AB-40943436CA11}.Release|x86.ActiveCfg = Release|Win32
+		{BF0258E4-9B66-4175-85AB-40943436CA11}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -230,6 +240,7 @@ Global
 		{3D8927E9-030C-4CE2-9248-1D3C3A751E47} = {D32A39AE-5E3A-4F77-93D5-C46C0C85CB3D}
 		{B5388F56-F22A-42F6-BC48-CAFED52C0171} = {D32A39AE-5E3A-4F77-93D5-C46C0C85CB3D}
 		{1BFA34A3-2E91-48FA-947C-07940E1152B5} = {D32A39AE-5E3A-4F77-93D5-C46C0C85CB3D}
+		{BF0258E4-9B66-4175-85AB-40943436CA11} = {D32A39AE-5E3A-4F77-93D5-C46C0C85CB3D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {19567278-2A7D-48CE-9AF2-D3A9047C97F6}
