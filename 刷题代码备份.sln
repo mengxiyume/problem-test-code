@@ -43,6 +43,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HJ1_字符串最后一个�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "541_反转字符串2", "力扣\541_反转字符串2\541_反转字符串2.vcxproj", "{3D8927E9-030C-4CE2-9248-1D3C3A751E47}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "557_反转字符串中的单词", "557_反转字符串中的单词\557_反转字符串中的单词.vcxproj", "{B5388F56-F22A-42F6-BC48-CAFED52C0171}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -187,6 +189,14 @@ Global
 		{3D8927E9-030C-4CE2-9248-1D3C3A751E47}.Release|x64.Build.0 = Release|x64
 		{3D8927E9-030C-4CE2-9248-1D3C3A751E47}.Release|x86.ActiveCfg = Release|Win32
 		{3D8927E9-030C-4CE2-9248-1D3C3A751E47}.Release|x86.Build.0 = Release|Win32
+		{B5388F56-F22A-42F6-BC48-CAFED52C0171}.Debug|x64.ActiveCfg = Debug|x64
+		{B5388F56-F22A-42F6-BC48-CAFED52C0171}.Debug|x64.Build.0 = Debug|x64
+		{B5388F56-F22A-42F6-BC48-CAFED52C0171}.Debug|x86.ActiveCfg = Debug|Win32
+		{B5388F56-F22A-42F6-BC48-CAFED52C0171}.Debug|x86.Build.0 = Debug|Win32
+		{B5388F56-F22A-42F6-BC48-CAFED52C0171}.Release|x64.ActiveCfg = Release|x64
+		{B5388F56-F22A-42F6-BC48-CAFED52C0171}.Release|x64.Build.0 = Release|x64
+		{B5388F56-F22A-42F6-BC48-CAFED52C0171}.Release|x86.ActiveCfg = Release|Win32
+		{B5388F56-F22A-42F6-BC48-CAFED52C0171}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -208,6 +218,7 @@ Global
 		{8A56E64E-8998-485E-9DAC-EAF535211176} = {D32A39AE-5E3A-4F77-93D5-C46C0C85CB3D}
 		{C8F36051-1DC1-46B7-BD98-5F1DD2AAA4E0} = {83714626-2480-4002-90BA-19CB64F85BED}
 		{3D8927E9-030C-4CE2-9248-1D3C3A751E47} = {D32A39AE-5E3A-4F77-93D5-C46C0C85CB3D}
+		{B5388F56-F22A-42F6-BC48-CAFED52C0171} = {D32A39AE-5E3A-4F77-93D5-C46C0C85CB3D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {19567278-2A7D-48CE-9AF2-D3A9047C97F6}
