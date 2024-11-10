@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.11.35312.102
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34729.46
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Draft_1", "Draft_1\Draft_1.vcxproj", "{7F219314-B0BF-4F07-A23E-0517AB317EA0}"
 EndProject
@@ -50,6 +50,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "260_只出现一次的数字3", "力扣\260_只出现一次的数字3\260_只出现一次的数字3.vcxproj", "{BF0258E4-9B66-4175-85AB-40943436CA11}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "137_只出现一次的数字2", "力扣\137_只出现一次的数字2\137_只出现一次的数字2.vcxproj", "{E3B9BCE8-35EF-417E-9D11-232C4095E578}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JZ31_栈的压入与弹出", "牛客\JZ31_栈的压入与弹出\JZ31_栈的压入与弹出.vcxproj", "{98455CD8-F462-471E-8403-ED147F01F944}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -227,6 +229,14 @@ Global
 		{E3B9BCE8-35EF-417E-9D11-232C4095E578}.Release|x64.Build.0 = Release|x64
 		{E3B9BCE8-35EF-417E-9D11-232C4095E578}.Release|x86.ActiveCfg = Release|Win32
 		{E3B9BCE8-35EF-417E-9D11-232C4095E578}.Release|x86.Build.0 = Release|Win32
+		{98455CD8-F462-471E-8403-ED147F01F944}.Debug|x64.ActiveCfg = Debug|x64
+		{98455CD8-F462-471E-8403-ED147F01F944}.Debug|x64.Build.0 = Debug|x64
+		{98455CD8-F462-471E-8403-ED147F01F944}.Debug|x86.ActiveCfg = Debug|Win32
+		{98455CD8-F462-471E-8403-ED147F01F944}.Debug|x86.Build.0 = Debug|Win32
+		{98455CD8-F462-471E-8403-ED147F01F944}.Release|x64.ActiveCfg = Release|x64
+		{98455CD8-F462-471E-8403-ED147F01F944}.Release|x64.Build.0 = Release|x64
+		{98455CD8-F462-471E-8403-ED147F01F944}.Release|x86.ActiveCfg = Release|Win32
+		{98455CD8-F462-471E-8403-ED147F01F944}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -252,6 +262,7 @@ Global
 		{1BFA34A3-2E91-48FA-947C-07940E1152B5} = {D32A39AE-5E3A-4F77-93D5-C46C0C85CB3D}
 		{BF0258E4-9B66-4175-85AB-40943436CA11} = {D32A39AE-5E3A-4F77-93D5-C46C0C85CB3D}
 		{E3B9BCE8-35EF-417E-9D11-232C4095E578} = {D32A39AE-5E3A-4F77-93D5-C46C0C85CB3D}
+		{98455CD8-F462-471E-8403-ED147F01F944} = {83714626-2480-4002-90BA-19CB64F85BED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {19567278-2A7D-48CE-9AF2-D3A9047C97F6}
